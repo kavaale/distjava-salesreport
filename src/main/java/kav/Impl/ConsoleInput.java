@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ConsoleInput implements SalesInput {
-
+    @Override
     public List<Sale> getSales() {
         List<Sale> salesList = new ArrayList<>();
         String customer;
